@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Kysely</h1>
+            <p id="description">Tämä kysely on tehty weppisivujen tekemisen opettelua varten</p>
+        </header>
+        <form id="survey-form">
+            <label for="name" id="name-label">Nimi:</label><br>
+            <input type="text" id="name" required placeholder="Syötä Nimesi"><br>
+            <label for="email" id="email-label">Sähköposti:</label><br>
+            <input type="email"  id="email" required placeholder="Syötä sähköposti osoite"><br>
+            <label for="number" id="number-label" >Ikä:</label><br>
+            <input type="number" min="0" max="150" id="number" placeholder="Syötä ikä"><br>
+            <label for="dropdown" id="dorpdown-label">dropdown</label><br>
+            <select id="dropdown">
+                <option value="jotain1"></option>
+                <option value="jotain2"></option>
+                <option value="jotain3"></option>
+            </select>
+            <legend>radio nappeja alla</legend>
+            <label for="radio1">radio1</label>
+            <input type="radio" name="radio" value="1" id="radio1"><br>
+            <label for="radio2">radio2</label>
+            <input type="radio" name="radio" value="2" id="radio2"><br>
+            <legend>checkboxeja</legend>
+            <label for="">check1</label>
+            <input type="checkbox" value="1" id="check1"><br>
+            <label for="">check2</label>
+            <input type="checkbox" value="2" id="check2"><br>
+            <label for="">check3</label>
+            <input type="checkbox"  value="3" id="check3"><br>
+            <label for="">check4</label>
+            <input type="checkbox"  value="4" id="check4"><br>
+            <label for="text">Text area</label><br>
+            <textarea id="text" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Tallenna" id="submit">
+
+
+        </form>
+    </div>
+</body>
+</html>
