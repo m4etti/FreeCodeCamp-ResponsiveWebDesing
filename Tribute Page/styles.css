@@ -1,0 +1,49 @@
+*{
+    margin: 0;            
+}
+#main{
+    font-family: 'Arimo';
+    line-height: 1.5;
+    text-align: center;
+    min-height: 100vh;
+}
+#img-div{
+    background-color: #012b3b;
+    color: white;
+}
+#image{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+.text{
+    text-align: left;
+    margin: 20px auto;
+    max-width: 900px;         
+}
+p{
+    margin: 20px;
+}        
+.flex-links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;                    
+}
+#links{
+    background-color: #012b3b;
+    color: white;
+    padding: 20px;        
+}
+.link-row{
+    flex-direction: row;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    white-space: nowrap;
+}
